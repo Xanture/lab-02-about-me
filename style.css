@@ -1,0 +1,7 @@
+body {
+  background-color: #F2B84D;
+}
+h1, h2 {
+  color: #E31B03;
+  border: red dotted 2px;
+}
