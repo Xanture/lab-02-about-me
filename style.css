@@ -2,6 +2,13 @@ body {
   background-color: #F2B84D;
 }
 h1, h2 {
-  color: #E31B03;
+  color: #cc00cc;
   border: red dotted 2px;
+  border-radius: 100%;
+  background-color: #ffff00;
+  text-align: center;
+}
+h1:hover, h2:hover {
+  background-color: #cc00cc;
+  color: #ffff00;
 }
