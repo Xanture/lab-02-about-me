@@ -81,11 +81,10 @@ var userGuessedNumber;
 var guessedNumWrong = true;
 
 
-console.log('user imputed', userGuessedNumber);
+/*console.log('user imputed', userGuessedNumber);
 for (var numOfGuesses = 4; numOfGuesses > 0 && guessedNumWrong; numOfGuesses--) {
 userGuessedNumber = prompt('My favorite number is between 1 - 10', 'Guess a number between 1 - 10');
 userGuessedNumber = parseInt(userGuessedNumber);
-console.log(numOfGuesses);
   if (userGuessedNumber === favoriteNumber) {
     alert('You guessed it!')
     guessedNumWrong = false
@@ -96,11 +95,29 @@ console.log(numOfGuesses);
   } else if (userGuessedNumber < favoriteNumber) {
     alert('Too low');
   }
-};
+};*/
 
 //I need to make a guessing game for which states i've lived in
 //Lets create a array that holds each states
 
-var stateIveLived = ['wa', 'washington', 'ca', 'california', 'nc', 'north carolina', 'md', 'maryland']
-console.log('states i\'ve lived:', stateIveLived);
-var gussedStateWrong = true
+var statesIveLived = ['ca', 'nc', 'md']
+console.log('states i\'ve lived:', statesIveLived);
+var guessRightCounter = 0;
+var guessedAllStates = true;
+var userGuessedState;
+
+for (var numOfGuesses = 0; numOfGuesses < 7 && guessedAllStates; numOfGuesses++) {
+userGuessedState = prompt('Guess a state i\'ve lived','Use only abrivations like NY').toLowerCase();
+console.log('user guessed', userGuessedState);
+  for (var i = 0; i < statesIveLived.length; i++) {
+    if (userGuessedState == statesIveLived[i]) {
+      console.log('log' + statesIveLived[i]);
+      alert('Correct')
+      guessRightCounter += 1
+      if (guessRightCounter == 3) {
+        alert("You gussed all the right states!")
+        guessedAllStates = false;
+      }
+    }
+  }
+};
