@@ -1,12 +1,30 @@
-body {
-  background-color: #F2B84D;
+.clear-fix {
+  clear: both;
 }
-h1, h2, h3 {
+
+* {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+/*h1, h2, h3 {
   color: #cc00cc;
   border: red solid 3px;
   border-radius: 100%;
   background-color: #ffff00;
   text-align: center;
+  width: 300px
 
 }
 h1:hover, h2:hover, h3:hover {
@@ -15,4 +33,4 @@ h1:hover, h2:hover, h3:hover {
 }
 p {
   text-align: center;
-}
+}*/
