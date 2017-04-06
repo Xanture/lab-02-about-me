@@ -7,6 +7,7 @@ var doesOwnPets = null;
 var isSuperHero = null;
 var wasNavy = null;
 var score;
+var userName = prompt('What is your name?');
 // I need to design 5 yes or no question
 //each question should return yes or no that is either upper or lower case
 // I need a useful and diescriptive promptlog that displays my answers to the browswer
@@ -115,9 +116,14 @@ console.log('user guessed', userGuessedState);
       alert('Correct')
       guessRightCounter += 1
       if (guessRightCounter == 3) {
-        alert("You gussed all the right states!")
         guessedAllStates = false;
       }
     }
   }
 };
+
+if (guessRightCounter == 3) {
+  alert(userName + ', you\'ve guessed all right correct states!');
+} else {
+  alert(userName + ', you\'ve gotten ' + guessRightCounter + ' correct out of 7 guesses');
+}
