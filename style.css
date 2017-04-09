@@ -18,6 +18,24 @@ body {
   width: 100%;
   height: 100%;
 }
+#head {
+  height: 35%;
+  width: 92%;
+  background-color: #166740;
+  float: right;
+  color: black;
+  text-align: center;
+  font-family: Ubuntu;
+  background-image: url("http://i.imgur.com/uwxTR74.jpg"), url("http://i.imgur.com/KlKEQYm.jpg"), url("http://i.imgur.com/mT0qyGv.jpg"), linear-gradient(to bottom left, #135D4F, #1A6716 );
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center, right, left;
+}
+#nav {
+  width: 8%;
+  height: 100%;
+  float: left;
+  background-color: #135D4F;
+}
 /*h1, h2, h3 {
   color: #cc00cc;
   border: red solid 3px;
