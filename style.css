@@ -1,19 +1,16 @@
 .clear-fix {
   clear: both;
 }
-
 * {
   width: 100%;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
 html {
   height: 100%;
   width: 100%;
 }
-
 body {
   width: 100%;
   height: 100%;
@@ -23,9 +20,9 @@ body {
   width: 92%;
   background-color: #166740;
   float: right;
-  color: black;
+  color: #BDAA8E;
   text-align: center;
-  font-family: Ubuntu;
+  font-family: Papyrus;
   background-image: url("http://i.imgur.com/uwxTR74.jpg"), url("http://i.imgur.com/KlKEQYm.jpg"), url("http://i.imgur.com/mT0qyGv.jpg"), linear-gradient(to bottom left, #135D4F, #1A6716 );
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center, right, left;
@@ -34,7 +31,15 @@ body {
   width: 8%;
   height: 100%;
   float: left;
-  background-color: #135D4F;
+  background-color: #403303;
+}
+#content {
+  height: 100%;
+  background-color: #BDAA8E;
+}
+#intro {
+  font-family:Lucida Bright;
+  text-align: center;
 }
 /*h1, h2, h3 {
   color: #cc00cc;
