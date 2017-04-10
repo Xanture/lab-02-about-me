@@ -16,44 +16,38 @@ body {
   height: 100%;
 }
 #head {
+  float: right;
   height: 35%;
   width: 92%;
   background-color: #166740;
   float: right;
   color: #BDAA8E;
   text-align: center;
+  text-decoration: underline;
   font-family: Papyrus;
   background-image: url("http://i.imgur.com/uwxTR74.jpg"), url("http://i.imgur.com/KlKEQYm.jpg"), url("http://i.imgur.com/mT0qyGv.jpg"), linear-gradient(to bottom left, #135D4F, #1A6716 );
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center, right, left;
 }
 #nav {
+  float: left;
   width: 8%;
   height: 100%;
   float: left;
   background-color: #403303;
 }
 #content {
-  height: 100%;
+  padding-left: 20px;
+  float: right;
+  height: 65%;
+  width: 92%;
   background-color: #BDAA8E;
 }
 #intro {
+  font-size: 20px;
   font-family:Lucida Bright;
   text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 25px;
 }
-/*h1, h2, h3 {
-  color: #cc00cc;
-  border: red solid 3px;
-  border-radius: 100%;
-  background-color: #ffff00;
-  text-align: center;
-  width: 300px
-
-}
-h1:hover, h2:hover, h3:hover {
-  background-color: #cc00cc;
-  color: #ffff00;
-}
-p {
-  text-align: center;
-}*/
